@@ -1,0 +1,59 @@
+.upper-container{
+    display: inline-block;
+}
+.flow-like-water{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(34, 34, 156);
+}
+li{
+    margin: 5px 40px;
+    display: inline-block;
+    color: aliceblue;
+    padding: 2px;
+    border-radius: 20px;
+}
+ul{
+    margin-left: -60px;
+}
+
+.upper-container{
+    width: 97.6%;
+    background-color: rgb(34, 34, 156);
+    color: white;
+}
+.lower-container{
+    width: 97.6%;
+
+}
+.First{
+    float: left;
+    width: 35%;
+}
+.Second{
+    float: left;
+    width: 30%;
+}
+.Third{
+    float: left;
+    width: 30%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+h1{
+    width: 70%;
+}
+.lang-container{
+    display: inline-block;
+    width: 10%;
+}
+
+.marg-lft{
+    margin-left: 40px;
+}
+label{
+    padding: 10px;
+}

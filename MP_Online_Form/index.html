@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/mp_online.css">
+</head>
+<body>
+    <nav>
+        <img src="/img/mpbse_MPPOnline-Logo-Hi.png" alt="">
+    </nav>
+    <nav class="flow-like-water">
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <form >
+        <fieldset class="upper-container">
+            <!-- LANG SELECT -->
+            <h1>Application for MPOnline Authorised KIOSK Allotment</h1>
+            <label for="lang" class="lang-container"><select name="lang" id="lang">
+                <option value="">English</option>
+                <option value="">Hindi</option>
+                <option value="">Punjabi</option>
+                <option value="">Bengali</option>
+                <option value="">Tamil</option>
+            </select></label>
+        </fieldset>
+        <fieldset class="lower-container">
+            <label for="name" class="First" >First Name <input type="text" name="name" id="name" required></label>
+            <label for="name" class="Second">Middle Name <input type="text" name="m-name" id="m-name"></label>
+            <label for="name" class="Third">Last Name <input type="text" name="l-name" id="l-name" required></label>
+            <br>
+            <!-- Gender , Father's Name , DOB -->
+            <label for="gender" class="First">Gender &nbsp; <label for="male">Male</label><input type="radio" name="gender" required> 
+            <label for="female" >Female</label><input type="radio" name="gender" required></label>
+            <label for="name" class="Second">Father/Husband Name <input type="text" name="f_h_name" id="f_h_name" required></label>
+            <label for="dob" class="Third">Date of Birth <input type="text" name="dob" id="dob" required></label>
+            <br>
+            <!-- State -->
+            <label for="state" class="First" >State <select name="state" id="state" required>
+                <option value="">Select</option>
+                <option value="">Madhya Pradesh</option>
+                <option value="">Andra Pradesh</option>
+                <option value="">Himachal Pradesh</option>
+                <option value="">Goa</option>
+            </select></label>
+            <!-- Division -->
+            <label for="Division" class="Second">Division <select name="division" id="division" required>
+                <option value="">Select</option>
+                <option value="">Chambal division</option>
+                <option value="">Gwalior division</option>
+                <option value="">Bhopal division</option>
+                <option value="">Indore division</option>
+            </select></label>
+            <!-- District -->
+            <label for="district" class="Third">District <select name="district" id="district" required>
+                <option value="">Select</option>
+                <option value="">Sagar</option>
+                <option value="">Chhatarpur</option>
+                <option value="">Guna</option>
+                <option value="">Damoh</option>
+            </select></label>
+            <br>
+            <!-- Tehsil -->
+            <label for="tehsil" class="First" >Tehsil <select name="tehsil" id="tehsil" required>
+                <option value="">Select</option>
+                <option value="">Kundam</option>
+                <option value="">Majoli</option>
+                <option value="">Patan</option>
+                <option value="">Panagar</option>
+            </select></label>
+            <!-- Locality -->
+            <label for="locality" class="Second">Locality &nbsp; <label for="rural">Rural</label><input type="radio" name="locality" required> 
+            <label for="urban">Urban</label><input type="radio" name="locality" required></label>
+            <!-- Block -->
+            <label for="block" class="Third">Block <select name="block" id="block" required>
+                <option value="">Select</option>
+                <option value="">Kundam Block</option>
+                <option value="">Majhauli Block</option>
+                <option value="">Patan Block</option>
+                <option value="">Panagar Block</option>
+            </select></label>
+            <br>
+            <!-- Gram Panchayat -->
+            <label for="GP" class="First" >Gram Panchayat <select name="gp" id="gp" required>
+                <option value="">Select</option>
+                <option value="">Bargi</option>
+                <option value="">Barha</option>
+                <option value="">Devri</option>
+                <option value="">Harai</option>
+            </select></label>
+            <!-- City/Village -->
+            <label for="GP" class="Second">City/Village <select name="gp" id="gp" required>
+                <option value="">Select</option>
+                <option value="">Jabalpur</option>
+                <option value="">Indore</option>
+                <option value="">Mandla</option>
+                <option value="">Dindori</option>
+            </select></label>
+            <!-- Pincode -->
+            <label for="pincode" class="Third">Pincode <input type="number" name="pincode" id="pincode"></label>
+            <br>
+            <!-- Residential Address -->
+            <label for="r-add" style="float:left; width:66.5%">Residential Address <textarea name="r-address" id="r-address" cols="70" rows="3"></textarea></label>
+            <!-- Email -->
+            <label for="email" style="float:left; width: 20%">Email <input type="email" name="email" id="email"></label>
+            <br>
+            <!-- Phone no. -->
+            <label for="ph-no" class="First" >Phone No. <input type="number" name="ph-no" id="ph-no" required></label>
+            <!-- Mobile no. -->
+            <label for="mob-no" class="Second">Mobile No. <input type="number" name="mob-no" id="mob-no" required></label>
+            <!-- PAN no. -->
+            <label for="pan-no" class="Third">PAN No. <input type="number" name="pan-no" id="pan-no" required></label>
+            <!-- PHOTO UPLOAD -->
+            <label for="img-upload" style="float: left;">Upload Your Photo <input type="file" name="img-upload" id="img-upload"></label>
+        </fieldset>
+    </form>
+</body>
+</html>
