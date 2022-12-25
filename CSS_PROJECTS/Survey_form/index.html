@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey-form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS_PROJECTS/Survey_form/styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label
+          >Name
+          <input type="text" placeholder="Enter your name" />
+        </label>
+        <label
+          >Email
+          <input type="email" placeholder="Enter your Email" />
+        </label>
+        <label>
+          Age <small>(optional)</small>
+          <input type="number" placeholder="Age" />
+        </label>
+        <label
+          >Which option best describes your current role?
+          <select>
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>
+          <input class="inline" type="radio" name="choice-recommend" />Definitely
+        </label>
+        <label>
+
+          <label> <input class="inline" type="radio" name="choice-recommend" />Maybe </label>
+          <label> <input class="inline" type="radio" name="choice-recommend" />Not sure </label>
+        </label>
+        <label>
+          What is your favorite feature of freeCodeCamp?
+          <select>
+            <option>Select an option</option>
+            <option>Challanges</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open Source</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label class="inline"
+          >What would you like to see improved?<small
+            >(Check all that apply)</small
+          >
+          <label><input class="inline" type="checkbox" />Front-end Projects</label>
+          <label><input class="inline" type="checkbox" />Back-end Projects </label>
+          <label><input class="inline" type="checkbox" />Data Visualization </label>
+          <label><input class="inline" type="checkbox" />Challenges </label>
+          <label><input class="inline" type="checkbox" />Open Source Community </label>
+          <label><input class="inline" type="checkbox" />Gitter help rooms </label>
+          <label><input class="inline" type="checkbox" />Videos</label>
+          <label><input class="inline" type="checkbox" />City Meetups</label>
+          <label><input class="inline" type="checkbox" />Wiki</label>
+          <label><input class="inline" type="checkbox" />Forum</label>
+          <label><input class="inline" type="checkbox" />Additional Courses</label>
+          <label for="bio">Any comments or suggestions?<textarea name="bio" id="bio" cols="30" rows="3" placeholder="Enter your comments here..."></textarea></label>
+        </label>
+      </fieldset>
+      <input type="submit">
+    </form>
+  </body>
+</html>
